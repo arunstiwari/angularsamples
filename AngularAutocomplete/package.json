@@ -1,0 +1,20 @@
+{
+  "name": "AngularAutocomplete",
+  "version": "1.0.0",
+  "description": "Demonstrate the Autocomplete example",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.repository/angularsamples.git"
+  },
+  "keywords": [
+    "AutoComplete",
+    "SpringBoot",
+    "Angular-Bootstrap-UI"
+  ],
+  "author": "arunstiwari",
+  "license": "ISC"
+}
