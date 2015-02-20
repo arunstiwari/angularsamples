@@ -1,0 +1,1 @@
+create table country (name varchar(255) not null, capital varchar(255), primary key (name));

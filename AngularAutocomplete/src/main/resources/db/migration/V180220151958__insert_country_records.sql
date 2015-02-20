@@ -1,0 +1,11 @@
+insert into country (name,capital) values ('India','New Delhi');
+insert into country (name,capital) values ('Bhutan','Thimpu');
+insert into country (name,capital) values ('Ireland','Dublin');
+insert into country (name,capital) values ('Canada','Ottawa');
+insert into country (name,capital) values ('UK','London');
+insert into country (name,capital) values ('USA','Washington');
+insert into country (name,capital) values ('Pakistan','Islamabad');
+insert into country (name,capital) values ('Australia','Canberra');
+insert into country (name,capital) values ('France','Paris');
+insert into country (name,capital) values ('Russia','Moscow');
+insert into country (name,capital) values ('Germany','Berlin');

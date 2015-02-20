@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"></meta>
+		<link rel="stylesheet" href="js/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/app.css" />
+		<title>Angular Autocomplete Example</title>
+	</head>
+	<body ng-app="autocomplete.app" ng-controller="autocompleteController">
+	<h1>Angular Autocomplete Example</h1>
+		<div class="list-container">
+			<input type="text" ng-model="selected" typeahead="country as country.name for country in countries | filter: {name: $viewValue} | limitTo:8" class="form-control"></input>
+			<span class="glyphicon glyphicon-search"></span>
+			
+			<br/>
+			<br/>
+			<h3>{{selected.name}} -- {{selected.capital}}</h3>
+		</div>
+	
+	
+	<script src="js/bower_components/angular/angular.js"></script>
+    <script src="js/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="js/bower_components/angular-route/angular-route.js"></script>
+    <script src="js/app/app.js"></script>
+    <script type="text/javascript" src="js/app/controller.js"></script>
+    </body>
+</html>
